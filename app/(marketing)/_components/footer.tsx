@@ -7,7 +7,7 @@ export const Footer = () => {
         <Logo />
         <div className="md:ml-auto w-full justify-between md:justify-end flex items-center gap-x-2 text-muted-foreground">
           <Button variant="ghost" size="sm">
-            I didn't fully understand Notion, so I coded one to figure it out 🤠
+            I didn&apos;t fully understand Notion, so I coded one to figure it out 🤠
           </Button>
         </div>
     </div>
