@@ -59,9 +59,10 @@ export const Menu = ({
                     <Trash className="h-4 w-4 mr-2" />
                     Delete
                 </DropdownMenuItem>
-                <DropdownMenuSeparator className="text-xs text-muted-foreground p-2">
+                <DropdownMenuSeparator />
+                <DropdownMenuItem className="text-xs text-muted-foreground">
                     Last edited by: {user?.fullName}
-                </DropdownMenuSeparator>
+                </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
     )

@@ -91,11 +91,11 @@ export const Publish = ({ initialData }: PublishProps) => {
             >
                 {initialData.isPublished ? (
                     <div className="space-y-4">
-                        <div className="flex items-center gap-x-2">
+                        <div className="flex-col py-2 items-center">
                             <Globe 
                                 className="text-sky-500 animate-pulse h-4 w-4"
                             />
-                            <p className="text-xs font-medium text-sky-500">
+                            <p className="text-xs font-medium text-sky-500 py-2">
                                 This note is live on web.
                             </p>
                             <div className="flex items-center">
